@@ -1,0 +1,45 @@
+.main-header {
+    border: 2px solid black;
+    width:270px;
+    margin:25px auto;
+    padding:0 4px;
+}
+
+*{
+    box-sizing:border-box;
+  }
+  
+  p {
+    display:flex;
+    justify-content: space-between;
+    margin: 0px auto;
+  }
+
+h1, h2, p {
+    font-family: "Open Sans", sans-serif;
+}   
+
+.line {
+    border-bottom:1px solid blue;
+    margin:2px 0;
+}
+
+.main-header h1 {
+    margin:-5px auto;
+}
+
+.bold {
+    font-weight:800;
+}
+
+.large {
+    height:10px;
+}
+
+.medium {
+    height:5px;
+}
+
+.large, .medium {
+    background-color: blue;
+}
