@@ -1,69 +1,68 @@
-.main-header {
-    border: 1px solid black;
-    width:270px;
-    margin:25px auto;
-    padding:0 4px;
-}
-
+/* Section 1: Important styling properties:*/
 * {
     box-sizing:border-box;
   }
-  
-  p {
+
+p {
     display:flex;
     justify-content: space-between;
     margin: 0px auto;
   }
 
-body {      /*font type should be applied to body element rather than h1,h2,p etc. separately.*/
+body { /*font type should be applied to body element rather than h1,h2,p etc. separately.*/
     font-family: "Open Sans", sans-serif;
 }   
-
-.line {
-    border-bottom:1px solid black;
-    margin:2px 0;
-}
-
-.main-header h1 {
-    margin:-5px auto;
-    letter-spacing: 0.04rem;
-    text-align: center;
-}
 
 .bold {
     font-weight:800;
 }
 
-.large {
-    height:10px;
+/* Section 2: Main div element styling:*/
+
+.main {
+    border: 1px solid black;
+    width:270px;
+    margin:25px auto;
+    padding:0 5px;
 }
 
-.medium {
-    height:5px;
+.main h1 {
+    margin:-4px auto;
+    letter-spacing: 0.02rem;
+    text-align: center;
 }
 
-.large, .medium { 
-    background-color: black;
-    border:0;  
-}
-
-.calories-information h2 {
-    font-size:0.80rem;
-    margin:0;
-}
-
-.calories-information span {
-    font-size: 2.4rem;
-}
+/* Section 3: Calories information div element styling:*/
 
 .calories-information {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
   }
-  
+
+.calories-information h2 {
+    font-size:0.80rem;
+    margin:0;
+}
+
+.calories-information p {
+    margin: -6px -2px;
+}
+
+.calories-information span {
+    font-size: 2.5rem;
+    margin: -6px -2px;
+}
+
 .left {
     font-size:2rem;
+}
+
+/* Section 4: Items information div element styling:*/
+
+.items p {
+    margin-top: -2px;
+    margin-bottom: -2px;
 }
 
 .right{
@@ -76,6 +75,30 @@ body {      /*font type should be applied to body element rather than h1,h2,p et
     margin-left:1em;
 }
 
+/* Section 5: Line separating div element styling:*/
+
+.line {
+    border-bottom:1px solid black;
+    margin:2px 0;
+}
+
+.large {
+    height:13px;
+}
+
+.medium {
+    height:4px;
+}
+
+.large, .medium { 
+    background-color: black;
+    border:0;  
+}
+   
+/* Section 6: Note div element styling:*/
+
 .note {
-font-size:0.80rem;
+    font-size:0.65rem;
+    margin-bottom:3px;
+
 }
