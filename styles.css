@@ -62,3 +62,20 @@ body {      /*font type should be applied to body element rather than h1,h2,p et
     align-items: flex-end;
   }
   
+.left {
+    font-size:2rem;
+}
+
+.right{
+    justify-content: flex-end;
+    font-size:0.80rem;
+    margin:0;
+}
+
+.indenting { 
+    margin-left:1em;
+}
+
+.note {
+font-size:0.80rem;
+}
